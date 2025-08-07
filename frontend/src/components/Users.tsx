@@ -3,8 +3,8 @@ import { IUser } from "../models/IUser";
 import axios from "axios";
 import {
   Container, Typography, Table, TableHead,
-  TableRow, TableCell, TableBody, Paper
-} from "@mui/material";
+    TableRow, TableCell, TableBody, Paper
+    } from "@mui/material";
 
 export default function Users() {
   const [users, setUsers] = useState<IUser[]>([]);
